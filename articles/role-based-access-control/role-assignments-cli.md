@@ -43,7 +43,7 @@ az ad user show --id "{principalName}" --query "objectId" --output tsv
 For an Azure AD group, you need the group object ID. To get the object ID, you can use [az ad group show](/cli/azure/ad/group#az_ad_group_show) or [az ad group list](/cli/azure/ad/group#az_ad_group_list).
 
 ```azurecli
-az ad group show --group "{groupName}" --query "objectId" --output tsv
+az ad group show --group "objectId" --output tsv
 ```
 
 **Service principal**
